@@ -1,0 +1,43 @@
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: "Times New Roman", serif;
+}
+
+.character {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+.character-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.character-details {
+  flex: 1;
+}
+
+.character-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.character-species {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.character-status {
+  font-size: 16px;
+}
